@@ -1,7 +1,4 @@
 use v5.10.0;
-use warnings;
-use strict;
-use diagnostics;
 
 # Pseudo Code (Required)
 #prompt user for first name
@@ -50,7 +47,8 @@ unless (caller) {
     }
 
     Zero();
-
+    
+    
     # Variable Assignment with Arithmetic Operators
 
     #Prompt user for first name
@@ -200,10 +198,12 @@ unless (caller) {
     # Loops and Arrays
 
     # Initialize username array
+    
     # Prompt consumer for given name and store recommendation in username index 0
     # Prompt consumer for family name and store recommendation in username index 1
     # Prompt consumer for the first number and store recommendation in number1 changing
     # Prompt consumer for the second number and store recommendation in number2 changeable
+    
     # If the consumer enters nothing as their second number, wait in loop just before they introduce a non-nothing number
 
     # Display the consumer's name and practice they filed
@@ -211,6 +211,7 @@ unless (caller) {
 
     # Display a card and prompt a consumer to select some four selections and store the recommendation in the answer changing
     # If the consumer does not display a genuine card choice, request ruling class to retry, and loop back to the card choice
+    
     # Display the consumer's name and their card choice
 
     # If the consumer inputs cuisine choice 1, increase number1 and number2 and set the answer in the total changeable, therefore display the meaning "$number1 + $number2 = $total"
@@ -218,18 +219,20 @@ unless (caller) {
     # If the consumer inputs cuisine choice 3, separate number1 and number2 and set the residue in the modern changing, therefore display the communication "$number1 % $number2 = $modern"
     # If the consumer inputs cuisine choice 4, exit the program
 
+
     # If the consumer inputs any more individual for u.s. city count, prompt the consumer to recommendation another cuisine choice just before the number of loops have happened achieved
+
 
 
     sub Arrays {
         @username=("firstname", "lastname");
 
         print "Please enter your first name: ";
-        my $username[0] = <>;
+        $username[0] = <>;
         chomp $username[0];
 
         print "Please enter your last name: ";
-        my $username[1] = <>;
+        $username[1] = <>;
         chomp $username[1];
 
         print "Please enter a number\n";
